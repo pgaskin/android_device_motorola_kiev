@@ -181,7 +181,7 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/firmware/CAMERA_ICP.elf
 
 # Charger
-vendor/bin/charge_only_mode
+vendor/bin/charge_only_mode|3c25acd1f831fa6bb080ff5a6133aa44471f164f
 
 # Display (HDR)
 vendor/etc/hdr_tm_config.xml
