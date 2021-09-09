@@ -13,3 +13,6 @@
 
 /(vendor|system/vendor)/bin/init\.oem\.fingerprint\.sh          u:object_r:init_fingerprint_exec:s0
 /(vendor|system/vendor)/bin/init\.oem\.fingerprint2\.sh         u:object_r:init_fingerprint_exec:s0
+
+/sys/devices/platform/soc/aab0000.qcom,venus/subsys[0-9]+/name		        u:object_r:vendor_sysfs_ssr:s0
+/sys/devices/platform/soc/aab0000.qcom,venus/subsys[0-9]+/restart_level		u:object_r:vendor_sysfs_ssr_toggle:s0
