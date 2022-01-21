@@ -217,6 +217,7 @@ PRODUCT_PACKAGES += \
     init.mmi.chipset.rc \
     init.mmi.rc \
     init.mmi.charge.sh \
+    init.mmi.charge_only.rc \
     init.mmi.overlay.rc \
     init.mmi.touch.sh \
     init.mmi.usb.rc \
