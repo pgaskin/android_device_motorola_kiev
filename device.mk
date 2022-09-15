@@ -202,6 +202,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
     android.frameworks.displayservice@1.0.vendor
 
+# Charger
+PRODUCT_PACKAGES += \
+    MotoCharger_animation
+WITH_LINEAGE_CHARGER := false
+
 # CNE
 PRODUCT_PACKAGES += \
     cneapiclient \
