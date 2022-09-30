@@ -260,6 +260,7 @@ ODM_MANIFEST_NP_FILES := $(DEVICE_PATH)/odm/manifest_np.xml
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := true
